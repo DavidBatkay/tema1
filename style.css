@@ -1,0 +1,26 @@
+header {
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    animation-name: dropHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 0.75s
+}
+
+div.contain {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: flex;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+  }
